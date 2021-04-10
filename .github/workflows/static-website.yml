@@ -14,6 +14,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
         with:
+          path: Beverly
           # ref: main
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -55,7 +56,7 @@ jobs:
           user_name: BeverlyBai
           user_email: tina49294929@gmail.com
           # github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./Beverly/public
           publish_branch: main
           # external_repository: robertchu1205/robertchu1205.github.io
           # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
