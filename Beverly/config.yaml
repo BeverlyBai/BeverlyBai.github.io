@@ -1,4 +1,5 @@
-baseURL: https://hugo-toha.github.io
+# baseURL: https://hugo-toha.github.io
+baseURL: /
 
 languageCode: en-us
 title: "Beverly's Blog"
@@ -39,7 +40,6 @@ params:
     inverted: images/profile.jpg
     favicon: images/profile.jpg
   
-
   # GitHub repo URL and branch of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
   gitBranch: main
