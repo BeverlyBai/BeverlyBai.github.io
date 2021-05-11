@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Project Manager
 # your company information
 company:
   name: Wistron Technology
-  # url: "https://www.example.com"
+ 
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate project manager with 2 years of working experience. '
+summary: 'I am a passionate project manager with 2 years of working experience. During my study and work, I worked hard to get the certificates.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -37,7 +37,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/%E4%BA%BA%E6%96%B9-%E7%99%BD-751b2418b/"
 
 # - name: Twitter
 #   icon: "fab fa-twitter"

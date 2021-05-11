@@ -1,17 +1,73 @@
-# # Your experiences
-# experiences:
-# - designation: Project Manager
-#   company:
-#     name: Wistron Technology
-#     url: "https://www.example.com"
-#     location: Zhongshan,Guangdong
-#     # company overview
-#     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-#   start: Nov 2017
-#   # don't provide end date if you are currently working there. It will be replaced by "Present"
-#   end: Dec 2020
-#   # give some points about what was your responsibilities at the company.
-#   responsibilities:
-#   - Design, develop and manage disaster a recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-#   - My another responsibility.
-#   - My more responsibilities.
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Wistron Technology
+    # url: "https://www.example.com"
+    location: Zhongshan, Guangdong
+    # company overview
+  positions:
+  - designation: Product Owner
+    start: Jun 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Responsible for Digital Projects - Process audit2.0 & First Article Inspection, 5S Projects
+    - Define Product Vision with customer, Conduct User Interviews, Define Product Backlog
+    - Ensure products are delivered to customers on time
+  - designation: Scrum lecturer
+    start: Dec 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Jun 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - How to use Scrum
+    - lecture Scrum Framework
+    - Difference of Scrum & Waterfall
+  - designation: Front-end Engineer 
+    start: Oct 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Jun 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Develop process and form of digitization by Javascript & BPM TOOL
+    - Visualize and monitor Digital Process by POWER BI
+    - Instruct BPM TOOL & Optimize Factory Process 
+- company:
+    name:  Internship Experience  
+    # url: "https://www.example.com"
+    location: Shanghai
+    # company overview
+  positions:
+  - designation: Sino Horizon Holdings Limited - Information Assistant Intern
+    start: Jul 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep 2019
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Develop HR system 
+    - Negotiate user reqirement with related dept 
+- company:
+    name:  Internship Experience 
+    # url: "https://www.example.com"
+    location: Taichung, Taiwan
+    # company overview
+  positions:
+  - designation: Data Systems Consulting CO.,LTD. -  ERP Consultant Intern
+    start: Feb 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: June 2019
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Teach clients ERP
+    - Troubleshoot ERP Problems from users  
